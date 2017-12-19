@@ -18,10 +18,5 @@ def get_news(publication='bbc'):
     return render_template('home.html', articles=feed['entries'])
 
 
-@app.route('/user/<name>')
-def user(name):
-    return render_template('user.html', name=name)
-
-
 if __name__ == '__main__':
     app.run(port=5000, debug=True)
