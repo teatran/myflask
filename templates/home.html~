@@ -1,0 +1,11 @@
+<hmtl>
+  <head>
+    <title>Headlines</title>
+  </head>
+  <body>
+    <h1>Headlines</h1>
+    <b>title</b>
+    <i>published</i><br />
+    <p>sumary</p>
+  </body>
+</html>
